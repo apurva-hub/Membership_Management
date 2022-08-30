@@ -1,0 +1,29 @@
+﻿@model mm_lib.Members
+
+<html>
+    <head>
+        
+    </head>
+<body>
+    <form method="post">
+        <div class="form">
+    <h1>Add Member</h1>
+    <label class="form__label">Enter Name</label>
+    <input required class="form__input" type = "text" name = "Name" />
+    <label class="form__label">Enter PhoneNo</label>
+    <input required class="form__input" type = "tel" name = "PhoneNo" />
+    <label class="form__label">Enter DOB</label>
+    <input required class="form__input" type = "date" name = "Dob" />
+    <select required name = "Gender">
+        <option value=false>Male</option>
+        <option value=true>Female</option>
+    </select>
+    <input class="form__button" type = "submit" value = "submit"/>
+    </div>
+
+</form>
+
+
+@ViewData["Message"]
+</body>
+</html>

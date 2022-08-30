@@ -1,0 +1,12 @@
+C:\membership_management\mm_lib\bin\Debug\net6.0\mm_lib.deps.json
+C:\membership_management\mm_lib\bin\Debug\net6.0\mm_lib.dll
+C:\membership_management\mm_lib\bin\Debug\net6.0\ref\mm_lib.dll
+C:\membership_management\mm_lib\bin\Debug\net6.0\mm_lib.pdb
+C:\membership_management\mm_lib\obj\Debug\net6.0\mm_lib.csproj.AssemblyReference.cache
+C:\membership_management\mm_lib\obj\Debug\net6.0\mm_lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\membership_management\mm_lib\obj\Debug\net6.0\mm_lib.AssemblyInfoInputs.cache
+C:\membership_management\mm_lib\obj\Debug\net6.0\mm_lib.AssemblyInfo.cs
+C:\membership_management\mm_lib\obj\Debug\net6.0\mm_lib.csproj.CoreCompileInputs.cache
+C:\membership_management\mm_lib\obj\Debug\net6.0\mm_lib.dll
+C:\membership_management\mm_lib\obj\Debug\net6.0\ref\mm_lib.dll
+C:\membership_management\mm_lib\obj\Debug\net6.0\mm_lib.pdb

@@ -1,0 +1,32 @@
+﻿@model mm_lib.Membership
+<html>
+    <head>
+
+    </head>
+    <body>
+        @foreach(var item in ViewBag.displayMembersById)
+    {
+        <p>@item.MemberId</p>
+        <p>@item.OrgId</p>
+        <p>@item.Name</p>
+        <p>@item.PhoneNo</p>
+        <p>@item.Dob</p>
+        @if(@item.Gender == true)
+        {
+            <p>Female</p>
+        }
+        else
+        {
+            <p>Male</p>
+        }
+        <form action="post">
+            
+            <input type="date" name="StartDate"/>
+            
+            <input type="number" min=1 placeholder="Duration" name="Duration"/>
+            <input type="number" min=1 placeholder="Paid Amount" name="AmountPaid"/>
+            <input type="submit" value="submit" formaction="AddMembership"/>
+        </form>
+    }
+</body>
+</html>

@@ -1,0 +1,24 @@
+﻿
+<html>
+    <head> </head>
+    <body>
+        @foreach(var item in ViewBag.displayAllMembers)
+    {
+        <p>@item.MemberId</p>
+        
+        <p>@item.Name</p>
+        <p>@item.PhoneNo</p>
+        
+        @if(@item.Gender == true)
+        {
+            <p>Female</p>
+        }
+        else
+        {
+            <p>Male</p>
+        }
+        <a asp-action="AddMembership" asp-route-orgId="@item.OrgId" asp-route-memberId="@item.MemberId">Add Membership</a>
+        
+    }
+</body>
+</html>
